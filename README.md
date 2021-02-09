@@ -16,6 +16,11 @@ To classify mushrooms as edible or poisonous using Back propagated neural networ
   - The system forward propagates through the network, calls Activation function and calculates the cost through cost function
   - Then the system propagates backwards and changes the weights through Gradient Descent method
   - This process is done for multiple iterations to obtain minimum cost/error
+  
+ # Files:
+  - Mushroom_Classification_Using_Backpropagation.ipynb file is the python notebook code
+  - mushrooms.csv is the original dataset
+  - mushrooms_converted.csv is the dataset after preprocessing
 
 # Notes:
 - The activation may be Sigmoid function or a Tanh function. Here, I have used Tanh function because of low accuracy in sigmoid function.
